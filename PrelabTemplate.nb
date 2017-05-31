@@ -1,0 +1,193 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6009,        184]
+NotebookOptionsPosition[      3744,        105]
+NotebookOutlinePosition[      5498,        162]
+CellTagsIndexPosition[      5455,        159]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lab E2: B-Field of a Solenoid", "Title",
+ CellChangeTimes->{{3.632450033929017*^9, 3.6324500457461305`*^9}, {
+  3.632450083952362*^9, 3.6324500876005344`*^9}, {3.6336606653345237`*^9, 
+  3.6336606750735683`*^9}, {3.634865310742119*^9, 3.634865327847146*^9}}],
+
+Cell["Peter Huynh", "Text",
+ CellChangeTimes->{{3.6348653373661613`*^9, 3.634865341256168*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Summary of Experiment", "Section",
+ CellChangeTimes->{{3.6312781230242834`*^9, 3.6312781379379787`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Prelab", "Subsection",
+ CellChangeTimes->{{3.631278150464859*^9, 3.6312781748478155`*^9}, {
+  3.63188306379108*^9, 3.63188306845551*^9}}],
+
+Cell["\<\
+First we will compute the acceleration of gravity. This will be done by \
+measuring the period, length, and the amplitude of a swinging pendulum \
+passing a photogate timer. Then we\[CloseCurlyQuote]ll calculate the \
+discrepancy, and repeat the experiment with different lengths to determine \
+any dependency of the period on the length and on the amplitude. After so, we \
+will analyze the error in our measurements to \[OpenCurlyDoubleQuote]true\
+\[CloseCurlyDoubleQuote] values.\
+\>", "Text",
+ CellChangeTimes->{{3.63127819896557*^9, 3.631278257965148*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Data and Calculations", "Section",
+ CellChangeTimes->{{3.6312781230242834`*^9, 3.6312781379379787`*^9}, {
+  3.6324501640618877`*^9, 3.6324501680598955`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Prelab", "Subsection",
+ CellChangeTimes->{{3.631278150464859*^9, 3.6312781748478155`*^9}, {
+  3.63188306379108*^9, 3.63188306845551*^9}}],
+
+Cell["\<\
+First we will compute the acceleration of gravity. This will be done by \
+measuring the period, length, and the amplitude of a swinging pendulum \
+passing a photogate timer. Then we\[CloseCurlyQuote]ll calculate the \
+discrepancy, and repeat the experiment with different lengths to determine \
+any dependency of the period on the length and on the amplitude. After so, we \
+will analyze the error in our measurements to \[OpenCurlyDoubleQuote]true\
+\[CloseCurlyDoubleQuote] values.\
+\>", "Text",
+ CellChangeTimes->{{3.63127819896557*^9, 3.631278257965148*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Discussion of Uncertainty", "Section",
+ CellChangeTimes->{{3.6312781230242834`*^9, 3.6312781379379787`*^9}, 
+   3.632450180043975*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Prelab", "Subsection",
+ CellChangeTimes->{{3.631278150464859*^9, 3.6312781748478155`*^9}, {
+  3.63188306379108*^9, 3.63188306845551*^9}}],
+
+Cell["\<\
+First we will compute the acceleration of gravity. This will be done by \
+measuring the period, length, and the amplitude of a swinging pendulum \
+passing a photogate timer. Then we\[CloseCurlyQuote]ll calculate the \
+discrepancy, and repeat the experiment with different lengths to determine \
+any dependency of the period on the length and on the amplitude. After so, we \
+will analyze the error in our measurements to \[OpenCurlyDoubleQuote]true\
+\[CloseCurlyDoubleQuote] values.\
+\>", "Text",
+ CellChangeTimes->{{3.63127819896557*^9, 3.631278257965148*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1902, 1010},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+PrintingStartingPageNumber->1,
+PageHeaders->{{
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Page"], "PageNumber"], "   ", "|", " ", 
+      StyleBox[
+       ValueBox["FileName"], "Header"]}], "Header", 
+    CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], 
+   Cell[
+    TextData[
+     StyleBox[
+      RowBox[{"Lab", " ", "E2"}], "Header"]], "Header"], 
+   Cell[
+    TextData[{
+     "Peter", " ", "Huynh", ",", " ", "Partner", ":", " ", "Rick", " ", 
+      "Schader", ",", " ", "Section", " ", "301"}], "Header", 
+    CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}, {
+   Cell[
+    TextData[{
+     "Peter", " ", "Huynh", ",", " ", "Partner", ":", " ", "Rick", " ", 
+      "Schader", ",", " ", "Section", " ", "301"}], "Header", 
+    CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], 
+   Cell[
+    TextData[
+     StyleBox[
+      RowBox[{"Lab", " ", "E2"}], "Header"]], "Header"], 
+   Cell[
+    TextData[{
+      StyleBox[
+       ValueBox["FileName"], "Header"], " ", "|", "   ", 
+      StyleBox[
+       CounterBox["Page"], "PageNumber"]}], "Header", 
+    CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}},
+PageFooters->{{None, None, None}, {None, None, None}},
+PageHeaderLines->{True, True},
+PageFooterLines->{True, True},
+PrintingOptions->{"FacingPages"->True,
+"FirstPageFace"->Right,
+"FirstPageFooter"->True,
+"FirstPageHeader"->True},
+Magnification:>1.3 Inherited,
+FrontEndVersion->"10.0 for Microsoft Windows (64-bit) (July 1, 2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 264, 3, 131, "Title"],
+Cell[847, 27, 95, 1, 39, "Text"],
+Cell[CellGroupData[{
+Cell[967, 32, 110, 1, 91, "Section"],
+Cell[CellGroupData[{
+Cell[1102, 37, 143, 2, 61, "Subsection"],
+Cell[1248, 41, 571, 9, 64, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1868, 56, 163, 2, 91, "Section"],
+Cell[CellGroupData[{
+Cell[2056, 62, 143, 2, 61, "Subsection"],
+Cell[2202, 66, 571, 9, 64, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2822, 81, 140, 2, 91, "Section"],
+Cell[CellGroupData[{
+Cell[2987, 87, 143, 2, 61, "Subsection"],
+Cell[3133, 91, 571, 9, 64, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

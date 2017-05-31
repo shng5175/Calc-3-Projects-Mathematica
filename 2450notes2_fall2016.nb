@@ -1,0 +1,1162 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     37943,       1153]
+NotebookOptionsPosition[     34242,       1036]
+NotebookOutlinePosition[     35326,       1071]
+CellTagsIndexPosition[     35247,       1066]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[1, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+
+Parametric Curves, Polar Plots and 2D Graphics\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, 3.564966306007907*^9, {3.5649666806077967`*^9, 
+   3.5649666986384897`*^9}}],
+
+Cell["Fall 2016", "Subtitle",
+ CellChangeTimes->{{3.56496670167383*^9, 3.564966703852343*^9}, {
+  3.650047940147493*^9, 3.6500479425975733`*^9}, {3.6621572758974237`*^9, 
+  3.662157278041688*^9}, {3.6807851955779133`*^9, 3.680785197335497*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Clear", "[", "\"\<Global`*\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.56570310090672*^9, 3.565703108250598*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Parametric Equations", "Section",
+ CellChangeTimes->{{3.56496715681817*^9, 3.564967162378281*^9}, {
+  3.5649680131705227`*^9, 3.5649680134743843`*^9}}],
+
+Cell[TextData[{
+ "In chapter 9, we introduced parametric equations so that we could easily \
+work with curves which do not pass the verticle line test. To define such \
+curves, we define the ",
+ Cell[BoxData[
+  FormBox["x", TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox["y", TraditionalForm]]],
+ " coordinates as functions of a parameter:"
+}], "Text",
+ CellChangeTimes->{{3.564967193976029*^9, 3.564967231684267*^9}, {
+  3.564967430769713*^9, 3.564967463120845*^9}}],
+
+Cell[BoxData[
+ RowBox[{"x", "=", 
+  RowBox[{
+   RowBox[{"f", 
+    RowBox[{"(", "t", ")"}], "       ", "y"}], "=", 
+   RowBox[{"g", 
+    RowBox[{"(", "t", ")"}]}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.564967615248637*^9, 3.56496762671085*^9}},
+ TextAlignment->Center],
+
+Cell[TextData[{
+ "Often times, we think of the parameter as representing time, as in \
+\[OpenCurlyDoubleQuote]at time ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]]],
+ ", the particle is at the point ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"f", "(", "t", ")"}], ",", 
+     RowBox[{"g", "(", "t", ")"}]}], ")"}], TraditionalForm]]],
+ ",\[CloseCurlyDoubleQuote] as if the curve is the path of some particle."
+}], "Text",
+ CellChangeTimes->{{3.5649677006274347`*^9, 3.564967750616208*^9}, {
+  3.564967829637651*^9, 3.564967855074828*^9}, {3.5649679527655487`*^9, 
+  3.564967953268746*^9}, {3.564967992445685*^9, 3.5649679960671053`*^9}}],
+
+Cell[TextData[{
+ "If we need to plot a parametric equation by hand, one technique we can use \
+is to make a chart of parameter values and corresponding points, and then \
+plot enough points to get a good idea of what the curve looks like. \
+Conveniently, we can also use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " to plot a parametric curve:"
+}], "Text",
+ CellChangeTimes->{{3.564967998667363*^9, 3.5649681015016937`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ParametricPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"2", 
+      RowBox[{"Cos", "[", "t", "]"}]}], ",", 
+     RowBox[{"2", 
+      RowBox[{"Sin", "[", "t", "]"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<x\>\"", ",", "Medium"}], "]"}], ",", 
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<y\>\"", ",", "Medium"}], "]"}]}], "}"}]}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Purple"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.564968121211492*^9, 3.56496821990547*^9}, {
+  3.5650134353096867`*^9, 3.565013440770228*^9}, {3.5650134884572363`*^9, 
+  3.565013509374229*^9}}],
+
+Cell[TextData[{
+ "The first argument is a list containing the parametric equations inside \
+curly brackets. The second argument is a list containing the parameter and \
+the range of parameter values over which we want to plot the curve. The \
+styling options go after those two required arguments, and have just the same \
+format as with the regular ",
+ StyleBox["Plot",
+  FontWeight->"Bold"],
+ " function."
+}], "Text",
+ CellChangeTimes->{{3.564968273829808*^9, 3.5649682984104233`*^9}, {
+  3.5649683432889767`*^9, 3.5649684887844753`*^9}}],
+
+Cell["Suppose that we\[CloseCurlyQuote]ve already defined a parametric \
+curve:", "Text",
+ CellChangeTimes->{{3.564968501520608*^9, 3.5649685162256317`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"r", "[", "t_", "]"}], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"t", "+", 
+      RowBox[{"2", 
+       RowBox[{"Sin", "[", 
+        RowBox[{"2", "t"}], "]"}]}]}], ",", 
+     RowBox[{"t", "+", 
+      RowBox[{"2", 
+       RowBox[{"Cos", "[", 
+        RowBox[{"5", "t"}], "]"}]}]}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.564968521462727*^9, 3.564968523541456*^9}, {
+  3.564968554343191*^9, 3.5649685673021107`*^9}}],
+
+Cell["We can easily plot this without re-typing it:", "Text",
+ CellChangeTimes->{{3.564968573429096*^9, 3.564968586985601*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ParametricPlot", "[", 
+  RowBox[{
+   RowBox[{"r", "[", "t", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<x\>\"", ",", "Medium"}], "]"}], ",", 
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<y\>\"", ",", "Medium"}], "]"}]}], "}"}]}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Orange"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.5649685891938887`*^9, 3.5649686093858213`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Polar Coordinates", "Section",
+ CellChangeTimes->{{3.565012488221405*^9, 3.565012490675653*^9}}],
+
+Cell["\<\
+In chapter 9, we also introduced polar coordinates as an alternative way to \
+describe points in the plane. In polar coordinates, we describe points via \
+their angle with the positive x-axis, and the distance from the origin (don\
+\[CloseCurlyQuote]t worry about the code for now, just look at the picture):\
+\>", "Text",
+ CellChangeTimes->{{3.565012510988823*^9, 3.565012577168343*^9}, {
+  3.565012728886716*^9, 3.565012739551325*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"point", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Black", ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "1"}], "}"}], ",", ".05"}], "]"}]}], "}"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"liner", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Red", ",", "Thick", ",", 
+      RowBox[{"Line", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "1"}], "}"}]}], "}"}], "]"}]}], "}"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"r", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<r\>\"", ",", "Large", ",", "Red"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{".5", ",", ".6"}], "}"}]}], "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"linex", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Purple", ",", "Thick", ",", 
+      RowBox[{"Line", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"x", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<x\>\"", ",", "Large", ",", "Purple"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{".5", ",", 
+        RowBox[{"-", ".1"}]}], "}"}]}], "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"liney", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Orange", ",", "Thick", ",", 
+      RowBox[{"Line", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"1", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "1"}], "}"}]}], "}"}], "]"}]}], "}"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"y", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<y\>\"", ",", "Large", ",", "Orange"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"1.1", ",", ".5"}], "}"}]}], "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"arc", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Black", ",", "Thick", ",", 
+      RowBox[{"Circle", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}], ",", ".2", ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", 
+          RowBox[{"\[Pi]", "/", "4"}]}], "}"}]}], "]"}]}], "}"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"theta", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Text", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<\[Theta]\>\"", ",", "Large"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{".3", ",", ".1"}], "}"}]}], "]"}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "liner", ",", "r", ",", "linex", ",", "x", ",", "liney", ",", "y", ",", 
+     "arc", ",", "theta", ",", "point"}], "}"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "True"}], ",", 
+   RowBox[{"AxesStyle", "\[Rule]", "Gray"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<x\>\"", ",", "Medium", ",", "Gray"}], "]"}], ",", 
+      RowBox[{"Style", "[", 
+       RowBox[{"\"\<y\>\"", ",", "Medium", ",", "Gray"}], "]"}]}], "}"}]}]}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.5650126059136972`*^9, 3.565013130449942*^9}}],
+
+Cell["\<\
+From this picture, it should be clear that we can switch back and forth \
+between the two coordinate systems in the following manner:\
+\>", "Text",
+ CellChangeTimes->{{3.565013188457304*^9, 3.56501321395649*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"x", "=", 
+  RowBox[{
+   RowBox[{"r", " ", "cos", 
+    RowBox[{"(", "\[Theta]", ")"}], "         ", "y"}], "=", 
+   RowBox[{"r", " ", "sin", 
+    RowBox[{"(", "\[Theta]", ")"}]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  SuperscriptBox["r", "2"], "=", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["x", "2"], "+", 
+    RowBox[{
+     SuperscriptBox["y", "2"], "             ", "tan", 
+     RowBox[{"(", "\[Theta]", ")"}]}]}], "=", 
+   FractionBox["y", "x"]}]}]}], "DisplayFormula",
+ CellChangeTimes->{{3.5650132220844603`*^9, 3.565013261223694*^9}},
+ TextAlignment->Center]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Polar Curves", "Section",
+ CellChangeTimes->{{3.5650136009148283`*^9, 3.565013602511099*^9}}],
+
+Cell[TextData[{
+ "We can use polar coordinates to define curves, just like we use rectangular \
+coordinates. Usually, when we need to plot a polar curve by hand, we make a \
+table consisting of the radius that results at various angles. Fortunately, \
+we can also use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " to plot polar curves. Below are some examples of common polar curves:"
+}], "Text",
+ CellChangeTimes->{{3.565013605910768*^9, 3.565013716536734*^9}}],
+
+Cell[BoxData[
+ RowBox[{"PolarPlot", "[", 
+  RowBox[{"3", ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Red"}], "}"}]}], ",", 
+   RowBox[{"PlotLabel", "\[Rule]", 
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<r = 3\>\"", ",", "Red", ",", "Large"}], "]"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.5650137206904793`*^9, 3.565013829948184*^9}}],
+
+Cell[BoxData[
+ RowBox[{"PolarPlot", "[", 
+  RowBox[{
+   RowBox[{"3", 
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}], ")"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Orange"}], "}"}]}], ",", 
+   RowBox[{"PlotLabel", "\[Rule]", 
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<r = 3(1-Cos[\[Theta]])\>\"", ",", "Orange", ",", "Large"}], 
+     "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.565013836784071*^9, 3.565013889763364*^9}}],
+
+Cell[BoxData[
+ RowBox[{"PolarPlot", "[", 
+  RowBox[{
+   RowBox[{"2", 
+    RowBox[{"Cos", "[", 
+     RowBox[{"4", "\[Theta]"}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Green"}], "}"}]}], ",", 
+   RowBox[{"PlotLabel", "\[Rule]", 
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<r = 2Cos[4\[Theta]]\>\"", ",", "Green", ",", "Large"}], 
+     "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.565013924536821*^9, 3.5650139635280952`*^9}, 
+   3.565014028523814*^9}],
+
+Cell[BoxData[
+ RowBox[{"PolarPlot", "[", 
+  RowBox[{
+   RowBox[{"3", 
+    RowBox[{"Sin", "[", "\[Theta]", "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Blue"}], "}"}]}], ",", 
+   RowBox[{"PlotLabel", "\[Rule]", 
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<r = 3Sin[\[Theta]]\>\"", ",", "Blue", ",", "Large"}], 
+     "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.565014008467814*^9, 3.565014052120057*^9}}],
+
+Cell[BoxData[
+ RowBox[{"PolarPlot", "[", 
+  RowBox[{
+   RowBox[{"3", 
+    RowBox[{"Cos", "[", "\[Theta]", "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Purple"}], "}"}]}], ",", 
+   RowBox[{"PlotLabel", "\[Rule]", 
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<r = 3Cos[\[Theta]]\>\"", ",", "Purple", ",", "Large"}], 
+     "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.565014068641067*^9, 3.5650140786155167`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"PolarPlot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"3", 
+     RowBox[{"Cos", "[", "\[Theta]", "]"}]}], "+", "2"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Theta]", ",", "0", ",", 
+     RowBox[{"2", "\[Pi]"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Thick", ",", "Pink"}], "}"}]}], ",", 
+   RowBox[{"PlotLabel", "\[Rule]", 
+    RowBox[{"Style", "[", 
+     RowBox[{"\"\<r = 3Cos[\[Theta]]+2\>\"", ",", "Pink", ",", "Large"}], 
+     "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.565014119157933*^9, 3.565014149522881*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Areas and Lengths in Polar Coordinates", "Section",
+ CellChangeTimes->{{3.565014313302121*^9, 3.565014318887288*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Area", "Subsection",
+ CellChangeTimes->{{3.565014512657509*^9, 3.56501451300778*^9}}],
+
+Cell[TextData[{
+ "If we have a polar curve defined by an equation of the form ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"r", "=", 
+    RowBox[{"f", "(", "\[Theta]", ")"}]}], TraditionalForm]]],
+ " (all of the previous examples were of this form), then we can calculate \
+the area enclosed by the curve from ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Theta]", "=", "a"}], TraditionalForm]]],
+ " to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Theta]", "=", "b"}], TraditionalForm]]],
+ " as"
+}], "Text",
+ CellChangeTimes->{{3.565014325223873*^9, 3.565014411187068*^9}}],
+
+Cell[BoxData[
+ RowBox[{"A", "=", 
+  RowBox[{
+   FractionBox["1", "2"], 
+   RowBox[{
+    SuperscriptBox[
+     SubscriptBox["\[Integral]", "a"], "b"], 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"f", "[", "\[Theta]", "]"}], ")"}], "2"], 
+     "d\[Theta]"}]}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.565014418819091*^9, 3.565014455107633*^9}},
+ TextAlignment->Center]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Arc Length", "Subsection",
+ CellChangeTimes->{{3.5650145194095907`*^9, 3.5650145207021723`*^9}}],
+
+Cell[TextData[{
+ "The arc length of a polar curve between angles ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Theta]", "=", "a"}], TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Theta]", "=", "b"}], TraditionalForm]]],
+ " is given by"
+}], "Text",
+ CellChangeTimes->{{3.565014524950017*^9, 3.565014554956378*^9}}],
+
+Cell[BoxData[
+ RowBox[{"L", "=", 
+  RowBox[{
+   SuperscriptBox[
+    SubscriptBox["\[Integral]", "a"], "b"], 
+   RowBox[{
+    SqrtBox[
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"f", "[", "\[Theta]", "]"}], ")"}], "2"], "+", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"f", "'"}], "[", "\[Theta]", "]"}], ")"}], "2"]}]], 
+    "d\[Theta]"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.5650145656032953`*^9, 3.5650146167495613`*^9}, 
+   3.565015104103568*^9, 3.565106607378067*^9},
+ TextAlignment->Center]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["2D Graphics", "Section",
+ CellChangeTimes->{{3.565015127967936*^9, 3.565015133932041*^9}}],
+
+Cell["\<\
+In addition to all of the styling options for 2D plots, we can also add \
+graphics objects to our plots. This includes things like text, shapes \
+(circles, disks, squares, triangles, etc.), lines, arrows and more. Including \
+these types of objects can help us point out important features of our plot \
+and convey information quickly. Let\[CloseCurlyQuote]s look at an example:\
+\>", "Text",
+ CellChangeTimes->{{3.565015137588076*^9, 3.565015272308454*^9}, {
+  3.5650153539218082`*^9, 3.565015366855204*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", "x", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"f", "[", "x_", "]"}], "=", 
+    RowBox[{
+     FractionBox["1", "10"], "x", 
+     RowBox[{"(", 
+      RowBox[{"x", "+", 
+       RowBox[{"2", 
+        SqrtBox["3"]}]}], ")"}], 
+     RowBox[{"(", 
+      RowBox[{"x", "-", 
+       RowBox[{"2", 
+        SqrtBox["3"]}]}], ")"}]}]}], ";"}], 
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "define", " ", "the", " ", "function", " ", "so", " ", "that", " ", "we", 
+    " ", "can", " ", "use", " ", "it", " ", "later"}], " ", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"func", "=", 
+    RowBox[{"Plot", "[", 
+     RowBox[{
+      RowBox[{"f", "[", "x", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{"-", "5"}], ",", "5"}], "}"}], ",", 
+      RowBox[{"PlotStyle", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"Thick", ",", "Black"}], "}"}]}], ",", 
+      RowBox[{"AxesLabel", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Style", "[", 
+          RowBox[{"\"\<x\>\"", ",", "Large"}], "]"}], ",", 
+         RowBox[{"Style", "[", 
+          RowBox[{
+          "\"\<f[x] = x(x+2\!\(\*SqrtBox[\(3\)]\))(x-2\!\(\*SqrtBox[\(3\)]\))\
+\>\"", ",", "Large"}], "]"}]}], "}"}]}], ",", 
+      RowBox[{"AspectRatio", "\[Rule]", "Automatic"}]}], "]"}]}], ";"}], " ", 
+  
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "we", " ", "want", " ", "to", " ", "give", " ", "each", " ", "graphic", 
+     " ", "a", " ", "name"}], ",", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+       "and", " ", "then", " ", "show", " ", "them", " ", "all", " ", 
+        "together", " ", "once", " ", 
+        RowBox[{"we", "'"}], "ve", " ", "created", " ", "everything"}], 
+       "..."}], " ", "make", " ", "sure", " ", "to", " ", "supress", " ", 
+      "intermediary", " ", "output", " ", "with", " ", "a", " ", "semi"}], 
+     "-", "colon"}]}], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"max", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"Red", ",", 
+       RowBox[{"Disk", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", "2"}], ",", 
+           RowBox[{"f", "[", 
+            RowBox[{"-", "2"}], "]"}]}], "}"}], ",", ".2"}], "]"}]}], "}"}], 
+     "]"}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{"styling", " ", "attributes", " ", "go", " ", "first"}], ",", " ", 
+    RowBox[{
+    "then", " ", "we", " ", "tell", " ", "it", " ", "what", " ", "the", " ", 
+     "graphics", " ", "object", " ", "is"}]}], " ", 
+   "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"maxL", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Red", ",", 
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<local max\>\"", ",", "Large"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "2"}], ",", 
+          RowBox[{
+           RowBox[{"f", "[", 
+            RowBox[{"-", "2"}], "]"}], "+", ".5"}]}], "}"}]}], "]"}]}], "}"}],
+     "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"min", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Purple", ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"2", ",", 
+          RowBox[{"f", "[", "2", "]"}]}], "}"}], ",", ".2"}], "]"}]}], "}"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"minL", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Purple", ",", 
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<local min\>\"", ",", "Large"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"2", ",", 
+          RowBox[{
+           RowBox[{"f", "[", "2", "]"}], "-", ".5"}]}], "}"}]}], "]"}]}], 
+     "}"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"infl", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Green", ",", 
+      RowBox[{"Disk", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", 
+          RowBox[{"f", "[", "0", "]"}]}], "}"}], ",", ".2"}], "]"}]}], "}"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"inflL", "=", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Green", ",", 
+      RowBox[{"Text", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<inflection point\>\"", ",", "Large"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"1.5", ",", 
+          RowBox[{
+           RowBox[{"f", "[", "0", "]"}], "+", ".5"}]}], "}"}]}], "]"}]}], 
+     "}"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Show", "[", 
+   RowBox[{"{", 
+    RowBox[{
+    "func", ",", "max", ",", "maxL", ",", "min", ",", "minL", ",", "infl", 
+     ",", "inflL"}], "}"}], "]"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "Mathematica", " ", "will", " ", "take", " ", "the", " ", "style", " ", 
+     "and", " ", "structure", " ", "of", " ", "the", " ", "axes", " ", "from",
+      " ", "the", " ", "first", " ", "graphic", " ", "in", " ", "the", " ", 
+     "list"}], ",", " ", 
+    RowBox[{
+     RowBox[{"so", " ", "choose", " ", "it", " ", 
+      RowBox[{"well", ".", " ", 
+       RowBox[{"It", "'"}]}], "s", " ", "best", " ", "to", " ", "include", 
+      " ", "all", " ", "of", " ", "the", " ", "graphics", " ", "inside", " ", 
+      "curly", " ", "brackets"}], ";", " ", 
+     RowBox[{
+     "if", " ", "some", " ", "of", " ", "the", " ", "objects", " ", "appear", 
+      " ", "to", " ", "run", " ", "outside", " ", "of", " ", "the", " ", 
+      "plot"}]}], ",", " ", 
+    RowBox[{
+    "we", " ", "can", " ", "then", " ", "include", " ", "the", " ", "phrase", 
+     " ", "\"\<PlotRange->All\>\"", " ", "after", " ", "the", " ", "last", 
+     " ", "curly", " ", "bracket"}]}], " ", "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.565015431116296*^9, 3.565015636065503*^9}, {
+  3.5650156712877293`*^9, 3.565016027225903*^9}, {3.565016058979073*^9, 
+  3.565016466217223*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Another Graphics Example", "Section",
+ CellChangeTimes->{{3.565016731804305*^9, 3.565016737746442*^9}}],
+
+Cell[TextData[{
+ "Suppose that we want to plot the parametric curve defined by the ",
+ StyleBox["position vector",
+  FontSlant->"Italic"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     StyleBox["r",
+      FontWeight->"Bold"], "(", "t", ")"}], "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["t", "2"], 
+       StyleBox["i",
+        FontWeight->"Bold"]}], "+", 
+      RowBox[{
+       FractionBox["1", "5"], 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["t", "3"], "-", "1"}], ")"}], 
+       StyleBox["j",
+        FontWeight->"Bold"], 
+       StyleBox["   ",
+        FontWeight->"Bold"], 
+       StyleBox["t",
+        FontWeight->"Plain"]}]}], "\[Element]", 
+     RowBox[{"[", 
+      RowBox[{
+       RowBox[{"-", "2"}], ",", "2"}], "]"}]}]}], TraditionalForm]]],
+ " and then make an arrow that is tangent to the curve at the point \
+corresponding to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"t", "=", "1"}], TraditionalForm]]],
+ ". First we need to look up the arrow function to see how that works, so let\
+\[CloseCurlyQuote]s look that up in the documentation center..."
+}], "Text",
+ CellChangeTimes->{{3.565016788695866*^9, 3.565016793594396*^9}, {
+  3.565016931096468*^9, 3.565016958919737*^9}, {3.5650169935792418`*^9, 
+  3.5650170936545687`*^9}, {3.565017515416868*^9, 3.565017535024774*^9}, {
+  3.565017656878901*^9, 3.565017674286873*^9}}],
+
+Cell[TextData[{
+ "Now, we know the initial point (tail) of the arrow will be given by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    StyleBox["r",
+     FontWeight->"Bold"], "(", 
+    RowBox[{"t", "=", "1"}], ")"}], TraditionalForm]]],
+ ", but we need to determine the final point (tip) of the arrow. It turns out \
+that the ",
+ StyleBox["velocity",
+  FontSlant->"Italic"],
+ " of the curve, ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     StyleBox["v",
+      FontWeight->"Bold"], "(", "t", ")"}], "=", 
+    RowBox[{
+     RowBox[{
+      StyleBox["r",
+       FontWeight->"Bold"], "'"}], 
+     RowBox[{"(", "t", ")"}]}]}], TraditionalForm]]],
+ ", is always a vector lying tangent to the curve; this in fact is the vector \
+we are trying to represent in the plot. To get the final point for our arrow, \
+we can use vector addition... so it will be given by ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     StyleBox["r",
+      FontWeight->"Bold"], "(", 
+     RowBox[{"t", "=", "1"}], ")"}], "+", 
+    RowBox[{
+     StyleBox["v",
+      FontWeight->"Bold"], "(", 
+     RowBox[{"t", "=", "1"}], ")"}]}], TraditionalForm]]],
+ ":"
+}], "Text",
+ CellChangeTimes->{{3.5650171015587606`*^9, 3.565017210832505*^9}, {
+  3.565017273548648*^9, 3.5650174694356413`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", "r", "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"r", "[", "t_", "]"}], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     SuperscriptBox["t", "2"], ",", 
+     RowBox[{
+      FractionBox["1", "5"], 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["t", "3"], "-", "1"}], ")"}]}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"path", "=", 
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"r", "[", "t", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+     RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"Thick", ",", "Black"}], "}"}]}], ",", 
+     RowBox[{"AxesLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<x\>\"", ",", "Large"}], "]"}], ",", 
+        RowBox[{"Style", "[", 
+         RowBox[{"\"\<y\>\"", ",", "Large"}], "]"}]}], "}"}]}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"vel", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"Blue", ",", 
+       RowBox[{"Arrow", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"r", "[", "1", "]"}], ",", 
+          RowBox[{
+           RowBox[{"r", "[", "1", "]"}], "+", 
+           RowBox[{".8", "*", 
+            RowBox[{
+             RowBox[{"r", "'"}], "[", "1", "]"}]}]}]}], "}"}], "]"}]}], "}"}],
+      "]"}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   RowBox[{
+    RowBox[{
+    "to", " ", "modify", " ", "the", " ", "length", " ", "of", " ", "the", 
+     " ", "arrow", " ", 
+     RowBox[{"(", 
+      RowBox[{
+      "to", " ", "make", " ", "the", " ", "plot", " ", "look", " ", "nice"}], 
+      ")"}]}], ",", " ", 
+    RowBox[{"multiply", " ", "v", " ", "by", " ", "a", " ", "scalar"}]}], " ",
+    "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"{", 
+   RowBox[{"path", ",", "vel"}], "}"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.5650174796340313`*^9, 3.565017755735016*^9}, {
+  3.6621573378571587`*^9, 3.662157346621291*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+ScreenStyleEnvironment->"SlideShow",
+WindowSize->{1918, 1036},
+WindowMargins->{{0, Automatic}, {Automatic, 21}},
+TaggingRules->{"SlideShow" -> True},
+FrontEndVersion->"10.2 for Linux x86 (64-bit) (July 29, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[579, 22, 4257, 95, 0, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5457, 139, 64, 1, 1, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[10431, 287, 64, 1, 1, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[15793, 455, 64, 1, 1, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[19967, 583, 64, 1, 1, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[22367, 674, 64, 1, 1, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[29240, 873, 64, 1, 1, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 34608, 1048}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 4257, 95, 0, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4839, 119, 193, 6, 395, "Title"],
+Cell[5035, 127, 244, 3, 98, "Subtitle"],
+Cell[5282, 132, 138, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5457, 139, 64, 1, 1, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5546, 144, 157, 2, 131, "Section"],
+Cell[5706, 148, 475, 12, 78, "Text"],
+Cell[6184, 162, 274, 8, 36, "DisplayFormula"],
+Cell[6461, 172, 670, 16, 78, "Text"],
+Cell[7134, 190, 434, 9, 108, "Text"],
+Cell[7571, 201, 861, 24, 81, "Input"],
+Cell[8435, 227, 540, 11, 108, "Text"],
+Cell[8978, 240, 157, 2, 46, "Text"],
+Cell[9138, 244, 477, 15, 48, "Input"],
+Cell[9618, 261, 127, 1, 46, "Text"],
+Cell[9748, 264, 634, 17, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10431, 287, 64, 1, 1, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10520, 292, 102, 1, 131, "Section"],
+Cell[10625, 295, 447, 7, 108, "Text"],
+Cell[11075, 304, 3849, 120, 401, "Input"],
+Cell[14927, 426, 222, 4, 46, "Text"],
+Cell[15152, 432, 592, 17, 92, "DisplayFormula"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15793, 455, 64, 1, 1, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[15882, 460, 99, 1, 131, "Section"],
+Cell[15984, 463, 471, 9, 108, "Text"],
+Cell[16458, 474, 488, 13, 48, "Input"],
+Cell[16949, 489, 623, 17, 48, "Input"],
+Cell[17575, 508, 614, 17, 48, "Input"],
+Cell[18192, 527, 562, 15, 48, "Input"],
+Cell[18757, 544, 568, 15, 48, "Input"],
+Cell[19328, 561, 590, 16, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19967, 583, 64, 1, 1, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[20056, 588, 123, 1, 131, "Section"],
+Cell[CellGroupData[{
+Cell[20204, 593, 91, 1, 97, "Subsection"],
+Cell[20298, 596, 563, 17, 78, "Text"],
+Cell[20864, 615, 396, 13, 68, "DisplayFormula"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21297, 633, 102, 1, 97, "Subsection"],
+Cell[21402, 636, 333, 11, 46, "Text"],
+Cell[21738, 649, 568, 18, 68, "DisplayFormula"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22367, 674, 64, 1, 1, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22456, 679, 96, 1, 131, "Section"],
+Cell[22555, 682, 519, 8, 108, "Text"],
+Cell[23077, 692, 6114, 175, 664, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29240, 873, 64, 1, 1, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[29329, 878, 109, 1, 131, "Section"],
+Cell[29441, 881, 1398, 42, 126, "Text"],
+Cell[30842, 925, 1269, 41, 111, "Text"],
+Cell[32114, 968, 2100, 64, 245, "Input"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

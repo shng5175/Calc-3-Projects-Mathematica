@@ -1,0 +1,799 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     26590,        790]
+NotebookOptionsPosition[     25722,        756]
+NotebookOutlinePosition[     26078,        772]
+CellTagsIndexPosition[     26035,        769]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[StyleBox["Tyler\[CloseCurlyQuote]s Final Quiz Results!", \
+"Title"]], "Chapter",
+ CellChangeTimes->{{3.690547644341654*^9, 3.6905476532890387`*^9}, {
+  3.69054813305742*^9, 3.69054813921607*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Electromagnetics Result", "Section",
+ CellChangeTimes->{{3.690547675984872*^9, 3.6905476861860647`*^9}, 
+   3.690547720840022*^9}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SubscriptBox["\[Mu]", "0"], "=", 
+    RowBox[{"4", "\[Pi]", "\[Times]", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "7"}]]}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   FractionBox["N", 
+    SuperscriptBox["Amp", "2"]], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SubscriptBox["B", "0"], "[", "r_", "]"}], "=", 
+   RowBox[{"Piecewise", "[", 
+    RowBox[{"{", "     ", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         FractionBox[
+          SubscriptBox["\[Mu]", "0"], "2"], "\[Times]", "r"}], ",", 
+        RowBox[{"r", "<", "1"}]}], "}"}], "     ", ",", "     ", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         FractionBox[
+          SubscriptBox["\[Mu]", "0"], "2"], "\[Times]", 
+         FractionBox["1", "r"]}], ",", 
+        RowBox[{"r", "\[GreaterEqual]", "1"}]}], "}"}]}], "     ", "}"}], 
+    "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQBmIQ/U+j7Dpz/WvHyj1O90F0cWrxUxDtsoHtI4i+tWfr
+HxC94fk1JhYgvWe6Ai+I9th8WwVE9wme8AHRk8798wfR91zvBINolyPro0B0
+w7L4eBA9J/d8Loh2eNVSBKJN1dYXg2iBSuMKEC1zt6AGRL/pjmwA0dfWxoHp
+oMcXW0G0/BffDhA9i826Byzf/GoaiI4L3jQXRC/p0J8Hol8oGS8G0UX1xWtA
+9N5jxn9AtFrKcS1WIN0UFfhbA0gfn/j8P4gWMRXm0AT5Z3svD4iWimkMANFf
+02cHgsWT+aJAdFGVYjSIBgCNv495
+  "]],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"\[Phi]", "[", 
+     RowBox[{"x_", ",", "y_"}], "]"}], "=", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", 
+       FractionBox["y", 
+        SqrtBox[
+         RowBox[{
+          SuperscriptBox["x", "2"], "+", 
+          SuperscriptBox["y", "2"]}]]]}], ",", 
+      FractionBox["x", 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox["x", "2"], "+", 
+         SuperscriptBox["y", "2"]}]]]}], "}"}]}], ";"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"Current", "[", "r_", "]"}], "=", 
+     RowBox[{"Piecewise", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", 
+          RowBox[{"r", "<", "1"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", 
+          RowBox[{"r", "\[GreaterEqual]", "1"}]}], "}"}]}], "}"}], "]"}]}], 
+    ";"}], "\[IndentingNewLine]"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"BFieldPlot", "=", 
+    RowBox[{"VectorPlot", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        SubscriptBox["B", "0"], "[", 
+        SqrtBox[
+         RowBox[{
+          SuperscriptBox["x", "2"], "+", 
+          SuperscriptBox["y", "2"]}]], "]"}], "\[Times]", 
+       RowBox[{"\[Phi]", "[", 
+        RowBox[{"x", ",", "y"}], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", 
+        RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"VectorStyle", "\[Rule]", 
+       RowBox[{"{", "Blue", "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"VectorPoints", "\[Rule]", "Fine"}]}], "]"}]}], ";"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"CurrentPlot", " ", "=", " ", 
+    RowBox[{"ContourPlot", "[", 
+     RowBox[{
+      RowBox[{"Current", "[", 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox["x", "2"], "+", 
+         SuperscriptBox["y", "2"]}]], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", 
+        RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", "\[IndentingNewLine]", 
+      RowBox[{"RegionFunction", "\[Rule]", 
+       RowBox[{"Function", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"x", ",", "y"}], "}"}], ",", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"x", "^", "2"}], "+", 
+           RowBox[{"y", "^", "2"}]}], "<", "1"}]}], "]"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{"ContourShading", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"RGBColor", "[", 
+          RowBox[{"1.0", ",", "0.9", ",", "0.3"}], "]"}], ",", "White"}], 
+        "}"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", "\[IndentingNewLine]", 
+      RowBox[{
+      "PlotLabel", "\[Rule]", 
+       "\"\<Magnetic Field (current coming towards you)\>\""}]}], "]"}]}], 
+   ";"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"10", 
+        RowBox[{"Current", "[", "r", "]"}]}], ",", 
+       FractionBox[
+        RowBox[{
+         SubscriptBox["B", "0"], "[", "r", "]"}], 
+        SubscriptBox["\[Mu]", "0"]]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"r", ",", "0", ",", "6"}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Filling", "\[Rule]", "Axis"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"Thick", ",", 
+          RowBox[{"RGBColor", "[", 
+           RowBox[{"1.0", ",", "0.9", ",", "0.3"}], "]"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"Thick", ",", "Blue"}], "}"}]}], "}"}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1.1"}], "}"}]}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+     "PlotLabel", "\[Rule]", 
+      "\"\<Magnitude of Magnetic field with radius\>\""}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"AxesLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<r   (cm)\>\"", ",", 
+        "\"\<\!\(\*FractionBox[\(1\), SubscriptBox[\(\[Mu]\), \(0\)]]\) \
+\!\(\*SubscriptBox[\(B\), \(0\)]\)(r)\>\""}], "}"}]}]}], "]"}], 
+   "\[IndentingNewLine]"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{"Show", "[", 
+   RowBox[{"CurrentPlot", ",", "BFieldPlot"}], "]"}],
+  FontSize->8]}], "Input",
+ CellChangeTimes->{{3.690547199964121*^9, 3.690547202981041*^9}, {
+  3.6905473120636673`*^9, 3.6905473309264793`*^9}, {3.6905473609273653`*^9, 
+  3.690547368853327*^9}, {3.690547513703766*^9, 3.690547516575185*^9}, {
+  3.690547605366151*^9, 3.690547617539893*^9}, {3.690547889327702*^9, 
+  3.69054789372898*^9}},
+ Background->GrayLevel[0.85]],
+
+Cell["\<\
+\tFun fact!
+If only there was some way to entirely eliminate the magnetic field outside \
+the wire as to not ruin other electronics...
+What if we put a shell around the wire that pushes current the opposite \
+direction?? These are called coax cables!\
+\>", "Text",
+ CellChangeTimes->{{3.690548153120489*^9, 3.690548303787203*^9}, 
+   3.69055000305886*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Thermodynamics Result", "Section",
+ CellChangeTimes->{{3.690547675984872*^9, 3.6905477178962297`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"\[Alpha]", "=", 
+    RowBox[{"1.43", "\[Times]", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "3"}]]}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   FractionBox[
+    SuperscriptBox["cm", "2"], "s"], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"k", "=", 
+    RowBox[{"5.91", "\[Times]", 
+     SuperscriptBox["10", 
+      RowBox[{"-", "3"}]]}]}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   FractionBox["Watts", 
+    RowBox[{"cm", " ", "\[Times]", " ", 
+     SuperscriptBox["C", "o"]}]], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"h", "[", 
+    RowBox[{"x_", ",", "y_", ",", "z_", ",", "t_"}], "]"}], "=", 
+   RowBox[{
+    RowBox[{"-", "10"}], "k", "\[Times]", 
+    RowBox[{"(", 
+     FractionBox["1", 
+      RowBox[{"2", 
+       SqrtBox[
+        RowBox[{"\[Alpha]", " ", "t"}]]}]], ")"}], 
+    RowBox[{"(", 
+     FractionBox["2", 
+      SqrtBox["\[Pi]"]], ")"}], 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"-", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             FractionBox[
+              RowBox[{"x", "+", "1"}], 
+              RowBox[{"2", 
+               SqrtBox[
+                RowBox[{"\[Alpha]", " ", "t"}]]}]], ")"}], "2"]}]], "-", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"-", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             FractionBox[
+              RowBox[{"x", "-", "1"}], 
+              RowBox[{"2", 
+               SqrtBox[
+                RowBox[{"\[Alpha]", " ", "t"}]]}]], ")"}], "2"]}]]}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"y", "+", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}], "-", 
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"y", "-", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}]}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"z", "+", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}], "-", 
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"z", "-", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}]}], ")"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"x", "+", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}], "-", 
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"x", "-", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}]}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"-", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             FractionBox[
+              RowBox[{"y", "+", "1"}], 
+              RowBox[{"2", 
+               SqrtBox[
+                RowBox[{"\[Alpha]", " ", "t"}]]}]], ")"}], "2"]}]], "-", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"-", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             FractionBox[
+              RowBox[{"y", "-", "1"}], 
+              RowBox[{"2", 
+               SqrtBox[
+                RowBox[{"\[Alpha]", " ", "t"}]]}]], ")"}], "2"]}]]}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"z", "+", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}], "-", 
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"z", "-", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}]}], ")"}]}], ",", 
+      "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"x", "+", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}], "-", 
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"x", "-", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}]}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"y", "+", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}], "-", 
+         RowBox[{"Erf", "[", 
+          FractionBox[
+           RowBox[{"y", "-", "1"}], 
+           RowBox[{"2", 
+            SqrtBox[
+             RowBox[{"\[Alpha]", " ", "t"}]]}]], "]"}]}], ")"}], 
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"-", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             FractionBox[
+              RowBox[{"z", "+", "1"}], 
+              RowBox[{"2", 
+               SqrtBox[
+                RowBox[{"\[Alpha]", " ", "t"}]]}]], ")"}], "2"]}]], "-", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"-", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             FractionBox[
+              RowBox[{"z", "-", "1"}], 
+              RowBox[{"2", 
+               SqrtBox[
+                RowBox[{"\[Alpha]", " ", "t"}]]}]], ")"}], "2"]}]]}], 
+        ")"}]}]}], "\[IndentingNewLine]", "}"}]}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.69054769550985*^9, 3.690547695757296*^9}, {
+   3.69054780073486*^9, 3.690547823337085*^9}, {3.690547947846447*^9, 
+   3.69054794969096*^9}, {3.690547989751144*^9, 3.690548008750679*^9}, {
+   3.6905480551713457`*^9, 3.6905481278175364`*^9}, {3.690548351704226*^9, 
+   3.6905484671399727`*^9}, {3.690548515773693*^9, 3.690548592219468*^9}, 
+   3.6905486342398233`*^9, 3.690548753818521*^9, 3.690549501276883*^9}],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"u0", "[", 
+      RowBox[{"x_", ",", "y_", ",", "z_"}], "]"}], "=", 
+     RowBox[{"Piecewise", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Abs", "[", "x", "]"}], "<", "1"}], "&&", 
+           RowBox[{
+            RowBox[{"Abs", "[", "y", "]"}], "<", "1"}], "&&", 
+           RowBox[{
+            RowBox[{"Abs", "[", "z", "]"}], "<", "1"}]}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", 
+          RowBox[{
+           RowBox[{"Abs", "[", "x", "]"}], "\[GreaterEqual]", "0"}]}], 
+         "}"}]}], "}"}], "]"}]}], ";"}], "\[IndentingNewLine]"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"SugarCube", "=", 
+     RowBox[{"ContourPlot3D", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"u0", "[", 
+         RowBox[{"x", ",", "y", ",", "z"}], "]"}], "\[Equal]", "1"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", " ", 
+         RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", " ", 
+         RowBox[{"-", "3"}], ",", " ", "3"}], "}"}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"z", ",", " ", 
+         RowBox[{"-", "3"}], ",", " ", "3"}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Mesh", "\[Rule]", "None"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"ContourStyle", "\[Rule]", 
+        RowBox[{"Directive", "[", 
+         RowBox[{"Cyan", ",", 
+          RowBox[{"Opacity", "[", "0.1", "]"}], ",", "\[IndentingNewLine]", 
+          RowBox[{"Specularity", "[", 
+           RowBox[{"White", ",", "30"}], "]"}]}], "]"}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Boxed", "\[Rule]", "True"}], ",", 
+       RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"Show", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"VectorPlot3D", "[", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"h", "[", 
+          RowBox[{"x", ",", "y", ",", "z", ",", "t"}], "]"}]}], ",", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", 
+          RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"y", ",", 
+          RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"z", ",", 
+          RowBox[{"-", "3"}], ",", "3"}], "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"VectorStyle", "\[Rule]", "Red"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"VectorScale", "\[Rule]", "0.1"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"Boxed", "\[Rule]", "False"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"AxesLabel", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<x  (cm)\>\"", ",", "\"\<y  (cm)\>\"", ",", "\"\<z  (cm)\>\""}],
+           "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", "\[IndentingNewLine]", 
+        RowBox[{"SphericalRegion", "\[Rule]", "True"}], ",", 
+        "\[IndentingNewLine]", 
+        RowBox[{"PlotLabel", "\[Rule]", "\"\<Heat Field\>\""}]}], "]"}], ",", 
+      "\[IndentingNewLine]", "SugarCube"}], "]"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"t", ",", 
+        SuperscriptBox["10", "0"]}], "}"}], ",", 
+      SuperscriptBox["10", "0"], ",", 
+      RowBox[{"3", "\[Times]", 
+       SuperscriptBox["10", "2"]}]}], "}"}]}], "]"}],
+  FontSize->8]}], "Input",
+ CellChangeTimes->{{3.690548637626828*^9, 3.6905487460785017`*^9}, {
+   3.69054877895119*^9, 3.6905488534378777`*^9}, {3.690548884171801*^9, 
+   3.690548964653049*^9}, {3.690548999019113*^9, 3.690549001239668*^9}, {
+   3.6905490419498663`*^9, 3.690549106387184*^9}, {3.690549169665147*^9, 
+   3.690549430555937*^9}, {3.690549463667738*^9, 3.690549467195322*^9}, 
+   3.6905495078155737`*^9, 3.6905496190093937`*^9, {3.690549898436655*^9, 
+   3.690549952906252*^9}, {3.690551499336882*^9, 3.6905515026005507`*^9}},
+ Background->GrayLevel[0.85]],
+
+Cell["\<\
+\tFun fact!
+It may be surprizing how slow the heat diffuses into the sugar cube region \
+with 600mW power flux still at 23 minutes!
+Actually this is only conductive heating, in most fluid problems the \
+molecular flow dominates the thermal problem in the form of convective heating.
+In fact, without any airflow it can take up to 5 days for a temperature \
+change on one side of our class to \[OpenCurlyQuote]be felt\[CloseCurlyQuote] \
+on the other side!\
+\>", "Text",
+ CellChangeTimes->{{3.690548153120489*^9, 3.690548303787203*^9}, {
+   3.6905496557648573`*^9, 3.690549859995233*^9}, 3.69055000070177*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Fluidics Result", "Section",
+ CellChangeTimes->{{3.690547675984872*^9, 3.6905476861860647`*^9}, {
+   3.690550018906939*^9, 3.69055002040248*^9}, 3.690551731598226*^9}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    SubscriptBox["v", "0"], "=", "3"}], ";"}], " ", 
+  RowBox[{"(*", " ", 
+   FractionBox["m", "s"], " ", "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"V", "[", 
+    RowBox[{"x_", ",", "y_"}], "]"}], "=", 
+   RowBox[{
+    SubscriptBox["v", "0"], 
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "-", 
+        FractionBox[
+         RowBox[{
+          SuperscriptBox["x", "2"], "-", 
+          SuperscriptBox["y", "2"]}], 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{
+            SuperscriptBox["x", "2"], "+", 
+            SuperscriptBox["y", "2"]}], ")"}], "2"]]}], ")"}], ",", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "2"}], 
+        FractionBox[
+         RowBox[{"x", " ", "y"}], 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{
+            SuperscriptBox["x", "2"], "+", 
+            SuperscriptBox["y", "2"]}], ")"}], "2"]]}], ")"}]}], 
+     "\[IndentingNewLine]", "}"}]}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.690550067824956*^9, 3.690550163958198*^9}}],
+
+Cell[BoxData[{
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"v", "[", 
+     RowBox[{"x_", ",", "y_"}], "]"}], "=", 
+    RowBox[{"Piecewise", "[", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["v", "0"], 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"1", "-", 
+              FractionBox[
+               RowBox[{
+                SuperscriptBox["x", "2"], "-", 
+                SuperscriptBox["y", "2"]}], 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox["x", "2"], "+", 
+                  SuperscriptBox["y", "2"]}], ")"}], "2"]]}], ")"}], ",", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"-", "2"}], 
+              FractionBox[
+               RowBox[{"x", " ", "y"}], 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{
+                  SuperscriptBox["x", "2"], "+", 
+                  SuperscriptBox["y", "2"]}], ")"}], "2"]]}], ")"}]}], 
+           "}"}]}], ",", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["x", "2"], "+", 
+           SuperscriptBox["y", "2"]}], ">", 
+          SuperscriptBox[
+           RowBox[{"(", "1.1", ")"}], "2"]}]}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["x", "2"], "+", 
+           SuperscriptBox["y", "2"]}], "\[LessEqual]", 
+          SuperscriptBox[
+           RowBox[{"(", "1.1", ")"}], "2"]}]}], "}"}]}], "}"}], "]"}]}], ";"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{
+    RowBox[{"Flow", "=", 
+     RowBox[{"VectorPlot", "[", 
+      RowBox[{
+       RowBox[{"v", "[", 
+        RowBox[{"x", ",", "y"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "3"}], ",", "5"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"y", ",", 
+         RowBox[{"-", "2.5"}], ",", "2.5"}], "}"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"AspectRatio", "\[Rule]", 
+        FractionBox["5", "8"]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", "\[IndentingNewLine]", 
+       
+       RowBox[{"PlotTheme", "\[Rule]", "\"\<Detailed\>\""}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PlotLabel", "\[Rule]", "\"\<River Flow Field\>\""}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"VectorScale", "\[Rule]", "Small"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"BoundaryOne", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Darker", "[", "Cyan", "]"}], ",", 
+       RowBox[{"Thickness", "[", "0.005", "]"}], ",", 
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"2", ",", 
+            RowBox[{"-", "1"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"2", ",", "1"}], "}"}]}], "}"}], "]"}]}], "}"}], "]"}]}], 
+   ";"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"BoundaryTwo", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Lighter", "[", "Purple", "]"}], ",", 
+       RowBox[{"Thickness", "[", "0.005", "]"}], ",", 
+       RowBox[{"Circle", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", "2", ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"-", 
+            FractionBox["\[Pi]", "2"]}], ",", 
+           FractionBox["\[Pi]", "2"]}], "}"}]}], "]"}]}], "}"}], "]"}]}], 
+   ";"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{
+   RowBox[{"Rock", "=", 
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"Brown", ",", 
+       RowBox[{"Disk", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "1"}], "}"}]}], "]"}]}], "}"}], "]"}]}], ";"}],
+  FontSize->8], "\[IndentingNewLine]", 
+ StyleBox[
+  RowBox[{"Show", "[", 
+   RowBox[{"Flow", ",", "BoundaryTwo", ",", "BoundaryOne", ",", "Rock"}], 
+   "]"}],
+  FontSize->8]}], "Input",
+ CellChangeTimes->{{3.6905501697040358`*^9, 3.690550195955792*^9}, {
+  3.690550244051799*^9, 3.6905504551499987`*^9}, {3.690550512152214*^9, 
+  3.6905505144636393`*^9}, {3.690550584323826*^9, 3.6905506184557447`*^9}, {
+  3.690550673397305*^9, 3.690550705302417*^9}, {3.69055075208086*^9, 
+  3.690550840252673*^9}, {3.690550906467898*^9, 3.690550909363533*^9}, {
+  3.69055094765478*^9, 3.690551115689617*^9}, {3.690551148908228*^9, 
+  3.69055122860133*^9}, {3.690551273460154*^9, 3.690551477269636*^9}, {
+  3.690551526040372*^9, 3.6905515433590927`*^9}},
+ Background->GrayLevel[0.85]],
+
+Cell["\<\
+\tFun fact!
+While many assumptions about the field were made, this form of the field is \
+used to calculate fluid forces on objects submersed in rivers. Complex \
+anaylsis is perhaps one of the most powerfull mathematical tools in applied \
+mathematics.\
+\>", "Text",
+ CellChangeTimes->{{3.690551611847567*^9, 3.690551718828125*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1013, 920},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 4, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 209, 3, 77, "Chapter"],
+Cell[CellGroupData[{
+Cell[814, 29, 136, 2, 64, "Section"],
+Cell[953, 33, 1331, 39, 78, "Input"],
+Cell[2287, 74, 5126, 149, 451, "Input"],
+Cell[7416, 225, 365, 8, 68, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7818, 238, 108, 1, 64, "Section"],
+Cell[7929, 241, 6260, 191, 326, "Input"],
+Cell[14192, 434, 4199, 104, 355, "Input"],
+Cell[18394, 540, 618, 11, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19049, 556, 173, 2, 64, "Section"],
+Cell[19225, 560, 1141, 37, 146, "Input"],
+Cell[20369, 599, 4979, 144, 317, "Input"],
+Cell[25351, 745, 343, 7, 68, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

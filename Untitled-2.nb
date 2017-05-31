@@ -1,0 +1,349 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12152,        339]
+NotebookOptionsPosition[     11200,        307]
+NotebookOutlinePosition[     11544,        322]
+CellTagsIndexPosition[     11501,        319]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Clear", "[", "\"\<Global`*\>\"", "]"}]], "Input"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", " ", "=", " ", "4000"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"b", " ", "=", " ", "2000"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"c", " ", "=", " ", "1500"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nucleus", "=", " ", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"x", "^", "2"}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"a", "^", "2"}], ")"}]}], ")"}], "+", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"y", "^", "2"}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"b", "^", "2"}], ")"}]}], ")"}], "+", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"z", "^", "2"}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"c", "^", "2"}], ")"}]}], ")"}]}], "=", "1"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"ContourPlot3D", "[", 
+  RowBox[{"nucleus", ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", " ", 
+     RowBox[{"-", "4000"}], ",", " ", "4000"}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", " ", 
+     RowBox[{"-", "2000"}], ",", " ", "2000"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"z", ",", " ", 
+     RowBox[{"-", "1500"}], ",", " ", "1500"}], "}"}], ",", 
+   RowBox[{"BoxRatios", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"a", "/", "c"}], ",", 
+      RowBox[{"b", "/", "c"}], ",", "1"}], "}"}]}], ",", 
+   RowBox[{"Mesh", "\[Rule]", "None"}], ",", " ", 
+   RowBox[{"ContourStyle", "\[Rule]", 
+    RowBox[{"{", "Gray", "}"}]}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.689371570201929*^9, 3.6893715887785215`*^9}, {
+  3.6893716524279447`*^9, 3.689371680332571*^9}, {3.689371712456204*^9, 
+  3.689371821426637*^9}, {3.689375571585119*^9, 3.689375599029359*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(\\*RowBox[{\\\"Plus\\\"}]\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\*RowBox[{RowBox[{\\\"0.9999997142857346`\\\", \\\"\
+\[VeryThinSpace]\\\"}], \\\"+\\\", RowBox[{\\\"0.9999997142857348`\\\", \\\"\
+\[VeryThinSpace]\\\"}], \\\"+\\\", \\\"0.9999997142857348`\\\"}]\\)\[NoBreak] \
+is Protected. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/write\\\", ButtonNote -> \
+\\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{{3.689375576800583*^9, 3.6893756114711437`*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[{},
+  Axes->True,
+  AxesLabel->{None, None, None},
+  BoxRatios->NCache[{
+     Rational[8, 3], 
+     Rational[4, 3], 1}, {2.6666666666666665`, 1.3333333333333333`, 1}],
+  DisplayFunction->Identity,
+  FaceGridsStyle->Automatic,
+  Method->{"DefaultBoundaryStyle" -> Directive[
+      GrayLevel[0.3]]},
+  PlotRange->{{-4000, 4000}, {-2000, 2000}, {-1500, 1500}},
+  PlotRangePadding->{
+    Scaled[0.02], 
+    Scaled[0.02], 
+    Scaled[0.02]},
+  Ticks->{Automatic, Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.6893756014599347`*^9, 3.6893756115674486`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(\\*RowBox[{\\\"Plus\\\"}]\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\*RowBox[{RowBox[{\\\"0.9999997142857346`\\\", \\\"\
+\[VeryThinSpace]\\\"}], \\\"+\\\", RowBox[{\\\"0.9999997142857348`\\\", \\\"\
+\[VeryThinSpace]\\\"}], \\\"+\\\", \\\"0.9999997142857348`\\\"}]\\)\[NoBreak] \
+is Protected. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/write\\\", ButtonNote -> \
+\\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{
+  3.6893718238904705`*^9, {3.6893755123857307`*^9, 3.689375515477108*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(\\*RowBox[{\\\"Plus\\\"}]\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\*RowBox[{RowBox[{\\\"0.9999997142857346`\\\", \\\"\
+\[VeryThinSpace]\\\"}], \\\"+\\\", RowBox[{\\\"0.9999997142857348`\\\", \\\"\
+\[VeryThinSpace]\\\"}], \\\"+\\\", \\\"0.9999997142857348`\\\"}]\\)\[NoBreak] \
+is Protected. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/write\\\", ButtonNote -> \
+\\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{3.6893718238904705`*^9, 3.6893755123857307`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]"}]], \
+"Input",
+ CellChangeTimes->{{3.689372408756243*^9, 3.6893724775057287`*^9}, {
+  3.6893749050037966`*^9, 3.6893750764513717`*^9}, {3.68937513271488*^9, 
+  3.6893751377256823`*^9}, {3.689375203266415*^9, 3.6893753289950666`*^9}, {
+  3.6893753604018974`*^9, 3.6893753753879213`*^9}, {3.6893755032853923`*^9, 
+  3.68937550600157*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.689375370797168*^9, 3.689375371116804*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"x", "[", "t", "]"}], " ", "=", " ", 
+   RowBox[{"10000", "-", 
+    RowBox[{"(", 
+     RowBox[{"t", "/", "30"}], ")"}], "-", 
+    RowBox[{"(", 
+     RowBox[{"4", "*", 
+      RowBox[{"(", 
+       RowBox[{"10", "^", 
+        RowBox[{"-", "6"}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{"t", "^", "2"}], ")"}]}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"y", "[", "t", "]"}], " ", "=", " ", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"-", "5000"}], ")"}], "+", 
+    RowBox[{"(", 
+     RowBox[{"t", "/", "1500"}], ")"}], "+", 
+    RowBox[{"(", 
+     RowBox[{"2", "*", 
+      RowBox[{"(", 
+       RowBox[{"10", "^", 
+        RowBox[{"(", 
+         RowBox[{"-", "6"}], ")"}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{"t", "^", "2"}], ")"}]}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"z", "[", "t", "]"}], " ", "=", " ", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"-", "6000"}], ")"}], "+", 
+    RowBox[{"(", 
+     RowBox[{"t", "/", "1500"}], ")"}], "+", 
+    RowBox[{"(", 
+     RowBox[{"3", "*", 
+      RowBox[{"(", 
+       RowBox[{"10", "^", 
+        RowBox[{"(", 
+         RowBox[{"-", "6"}], ")"}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{"t", "^", "2"}], ")"}]}], ")"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"r", "[", "t_", "]"}], "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"x", "[", "t", "]"}], ",", " ", 
+     RowBox[{"y", "[", "t", "]"}], ",", " ", 
+     RowBox[{"z", "[", "t", "]"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Plot1", "=", 
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"r", "[", "t", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0", ",", "1"}], "}"}]}], "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6893754308669243`*^9, 3.689375450104288*^9}, {
+  3.6893756228068347`*^9, 3.689375629010129*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(\\*RowBox[{\\\"Real\\\"}]\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\*RowBox[{\\\"3999.999428571429`\\\", \\\"[\\\", \
+\\\"t\\\", \\\"]\\\"}]\\)\[NoBreak] is Protected. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/write\\\", ButtonNote -> \
+\\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.6893753790710154`*^9, 3.6893754521813707`*^9, 3.689375520650256*^9, {
+   3.6893756264949703`*^9, 3.689375630929347*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(\\*RowBox[{\\\"Real\\\"}]\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\*RowBox[{\\\"1999.9997142857144`\\\", \\\"[\\\", \\\"t\\\
+\", \\\"]\\\"}]\\)\[NoBreak] is Protected. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/write\\\", ButtonNote -> \
+\\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.6893753790710154`*^9, 3.6893754521813707`*^9, 3.689375520650256*^9, {
+   3.6893756264949703`*^9, 3.6893756311170435`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Tag \[NoBreak]\\!\\(\\*RowBox[{\\\"Real\\\"}]\\)\[NoBreak] \
+in \[NoBreak]\\!\\(\\*RowBox[{\\\"1499.9997857142857`\\\", \\\"[\\\", \\\"t\\\
+\", \\\"]\\\"}]\\)\[NoBreak] is Protected. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/write\\\", ButtonNote -> \
+\\\"Set::write\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{
+  3.6893753790710154`*^9, 3.6893754521813707`*^9, 3.689375520650256*^9, {
+   3.6893756264949703`*^9, 3.689375631301155*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Set", "::", "write"}], "MessageName"], 
+  RowBox[{":", " "}], 
+  "\"\<Tag \[NoBreak]Real\[NoBreak] in \[NoBreak]\!\(1499.9997857142857`[t]\)\
+\[NoBreak] is Protected. \!\(\*ButtonBox[\\\"\[RightSkeleton]\\\",
+Appearance->{Automatic, None},
+BaseStyle->\\\"Link\\\",
+ButtonData:>\\\"paclet:ref/message/General/write\\\",
+ButtonNote->\\\"Set::write\\\"]\)\>\""}]], "Message", "MSG",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{
+  3.6893753794436483`*^9, {3.68937541961974*^9, 3.6893754201376514`*^9}}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.6893753386578493`*^9, 3.68937533910664*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.689375316889846*^9, 3.6893753172824583`*^9}}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.689371803505088*^9, 3.689371803971115*^9}}]
+},
+WindowSize->{759, 601},
+WindowMargins->{{Automatic, 161}, {Automatic, 16}},
+FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (April 11, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 73, 1, 31, "Input"],
+Cell[CellGroupData[{
+Cell[656, 25, 1807, 51, 132, "Input"],
+Cell[2466, 78, 706, 13, 21, "Message"],
+Cell[3175, 93, 591, 17, 260, "Output"],
+Cell[3769, 112, 783, 16, 21, "Message"],
+Cell[4555, 130, 756, 15, 21, "Message"]
+}, Open  ]],
+Cell[5326, 148, 931, 14, 512, InheritFromParent],
+Cell[6260, 164, 92, 1, 31, InheritFromParent],
+Cell[CellGroupData[{
+Cell[6377, 169, 1955, 65, 112, "Input"],
+Cell[8335, 236, 659, 13, 21, "Message"],
+Cell[8997, 251, 662, 13, 21, "Message"],
+Cell[9662, 266, 660, 13, 21, "Message"],
+Cell[10325, 281, 571, 14, 21, "Message"]
+}, Open  ]],
+Cell[10911, 298, 93, 1, 31, InheritFromParent],
+Cell[11007, 301, 94, 1, 31, InheritFromParent],
+Cell[11104, 304, 92, 1, 31, InheritFromParent]
+}
+]
+*)
+
+(* End of internal cache information *)
+
